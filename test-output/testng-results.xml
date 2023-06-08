@@ -1,38 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-26T09:10:28 IST" name="Suite" finished-at="2023-05-26T09:11:04 IST" duration-ms="36049">
+  <suite started-at="2023-06-08T13:10:03 IST" name="Suite" finished-at="2023-06-08T13:10:51 IST" duration-ms="48076">
     <groups>
     </groups>
-    <test started-at="2023-05-26T09:10:28 IST" name="Test" finished-at="2023-05-26T09:11:04 IST" duration-ms="36049">
-      <class name="TestCases.VerifyRegister">
-        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:TestCases.VerifyRegister@7722c3c3]" started-at="2023-05-26T09:10:28 IST" name="launchbrowser" finished-at="2023-05-26T09:10:35 IST" duration-ms="6735" status="PASS">
+    <test started-at="2023-06-08T13:10:03 IST" name="Test" finished-at="2023-06-08T13:10:51 IST" duration-ms="48076">
+      <class name="TestCases.VerifyAddToCart">
+        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:TestCases.VerifyAddToCart@79924b]" started-at="2023-06-08T13:10:44 IST" name="launchbrowser" finished-at="2023-06-08T13:10:47 IST" duration-ms="3411" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchbrowser -->
-        <test-method signature="Register()[pri:0, instance:TestCases.VerifyRegister@7722c3c3]" started-at="2023-05-26T09:10:35 IST" name="Register" finished-at="2023-05-26T09:10:52 IST" duration-ms="16979" status="PASS">
+        <test-method signature="AddCart1()[pri:0, instance:TestCases.VerifyAddToCart@79924b]" started-at="2023-06-08T13:10:47 IST" name="AddCart1" finished-at="2023-06-08T13:10:51 IST" duration-ms="3601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddCart1 -->
+      </class> <!-- TestCases.VerifyAddToCart -->
+      <class name="TestCases.VerifyRegister">
+        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:TestCases.VerifyRegister@393671df]" started-at="2023-06-08T13:10:03 IST" name="launchbrowser" finished-at="2023-06-08T13:10:08 IST" duration-ms="4722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="Register()[pri:0, instance:TestCases.VerifyRegister@393671df]" started-at="2023-06-08T13:10:08 IST" name="Register" finished-at="2023-06-08T13:10:22 IST" duration-ms="14414" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Register -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:TestCases.VerifyRegister@7722c3c3]" started-at="2023-05-26T09:10:52 IST" name="quit" finished-at="2023-05-26T09:10:52 IST" duration-ms="375" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
       </class> <!-- TestCases.VerifyRegister -->
-      <class name="TestCases.VerifyLogin">
-        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:TestCases.VerifyLogin@1fa268de]" started-at="2023-05-26T09:10:52 IST" name="launchbrowser" finished-at="2023-05-26T09:11:02 IST" duration-ms="9373" status="PASS">
+      <class name="TestCases.VerifyTabs">
+        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:TestCases.VerifyTabs@4fb0f2b9]" started-at="2023-06-08T13:10:38 IST" name="launchbrowser" finished-at="2023-06-08T13:10:42 IST" duration-ms="3061" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchbrowser -->
-        <test-method signature="validlogin()[pri:0, instance:TestCases.VerifyLogin@1fa268de]" started-at="2023-05-26T09:11:02 IST" name="validlogin" finished-at="2023-05-26T09:11:04 IST" duration-ms="2316" status="PASS">
+        <test-method signature="ValidateTabs()[pri:0, instance:TestCases.VerifyTabs@4fb0f2b9]" started-at="2023-06-08T13:10:42 IST" name="ValidateTabs" finished-at="2023-06-08T13:10:44 IST" duration-ms="2491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateTabs -->
+      </class> <!-- TestCases.VerifyTabs -->
+      <class name="TestCases.VerifyLogin">
+        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:TestCases.VerifyLogin@4fb61f4a]" started-at="2023-06-08T13:10:22 IST" name="launchbrowser" finished-at="2023-06-08T13:10:37 IST" duration-ms="15014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="validlogin()[pri:0, instance:TestCases.VerifyLogin@4fb61f4a]" started-at="2023-06-08T13:10:37 IST" name="validlogin" finished-at="2023-06-08T13:10:38 IST" duration-ms="1316" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validlogin -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:TestCases.VerifyLogin@1fa268de]" started-at="2023-05-26T09:11:04 IST" name="quit" finished-at="2023-05-26T09:11:04 IST" duration-ms="232" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
       </class> <!-- TestCases.VerifyLogin -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->

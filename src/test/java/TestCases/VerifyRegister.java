@@ -36,7 +36,7 @@ public class VerifyRegister extends BaseClass {
 		
 		email=creative1.generateemail();
 		
-		RPO.enterEmail().sendKeys(constant.email);
+		RPO.enterEmail().sendKeys(email);
 		
 		RPO.enterTelephone().sendKeys(constant.phone);
 		
@@ -55,13 +55,13 @@ public class VerifyRegister extends BaseClass {
 	    
 	    Thread.sleep(3000);
 	    
-	    RPO.Continue().click();
-	    System.out.println(email);
-
-		String P = RPO.validateSucessText().getText();
+	    String P = RPO.validateSucessText().getText();
 		String Q = constant.expectedtext;
 		assertions.assertEquals(P, Q, "ENTER INVALID DATA");
 		assertions.assertAll();
+		
+		RPO.Continue().click();
+	    System.out.println(email);
 
 		
 		

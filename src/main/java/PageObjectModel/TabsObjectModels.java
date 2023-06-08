@@ -21,9 +21,10 @@ public class TabsObjectModels {
 	
 	private By componentText=By.xpath("//a[contains(text(),'Mice and Trackballs (0)')]");
 	
-	private By TabletsTab=By.xpath("(//a[@href='https://naveenautomationlabs.com/opencart/index.php?route=product/category&path=57'])[1]");
+    private By tablets=By.xpath("//a[@href='https://naveenautomationlabs.com/opencart/index.php?route=product/category&path=57']");
 	
-	private By TabletsText=By.xpath("(//a[contains(text(),'Tablets')])[2]");
+	private By tablettext=By.xpath("(//a[contains(text(),'Tablets')])[2]");
+	
 	
 	private By SoftwareTab=By.xpath("(//a[@href='https://naveenautomationlabs.com/opencart/index.php?route=product/category&path=17'])[1]");
 	
@@ -82,12 +83,12 @@ public class TabsObjectModels {
 	}
 	
 	public WebElement TabletsTab() {
-		return driver.findElement(TabletsTab);
+		return driver.findElement(tablets);
 
 	}
 	
 	public WebElement TabletsText() {
-		return driver.findElement(TabletsText);
+		return driver.findElement(tablets);
 
 	}
 	

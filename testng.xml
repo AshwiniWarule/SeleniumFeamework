@@ -4,7 +4,9 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="TestCases.VerifyRegister"/>
-      <class name="TestCases.VerifyLogin"/>
+        <class name="TestCases.VerifyLogin"/>
+        <class name="TestCases.VerifyTabs"/>
+        <class name="TestCases.VerifyAddToCart"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

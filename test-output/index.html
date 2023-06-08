@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,7 +104,17 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.VerifyAddToCart" class="method navigator-link" hash-for-method="AddCart1">AddCart1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="TestCases.VerifyRegister" class="method navigator-link" hash-for-method="Register">Register</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.VerifyTabs" class="method navigator-link" hash-for-method="ValidateTabs">ValidateTabs</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -142,6 +152,21 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">TestCases.VerifyAddToCart</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddCart1">
+                  </a> <!-- AddCart1 -->
+                  <span class="method-name">AddCart1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">TestCases.VerifyRegister</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -150,6 +175,21 @@
                   <a name="Register">
                   </a> <!-- Register -->
                   <span class="method-name">Register</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.VerifyTabs</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateTabs">
+                  </a> <!-- ValidateTabs -->
+                  <span class="method-name">ValidateTabs</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -168,6 +208,8 @@
     &lt;classes&gt;
       &lt;class name=&quot;TestCases.VerifyRegister&quot;/&gt;
       &lt;class name=&quot;TestCases.VerifyLogin&quot;/&gt;
+      &lt;class name=&quot;TestCases.VerifyTabs&quot;/&gt;
+      &lt;class name=&quot;TestCases.VerifyAddToCart&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -181,7 +223,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (2 classes)</span>
+                <span class="test-name">Test (4 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -207,20 +249,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'Register')
 data.setCell(0, 2, 'TestCases.VerifyRegister')
-data.setCell(0, 3, 16979);
+data.setCell(0, 3, 14414);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'validlogin')
-data.setCell(1, 2, 'TestCases.VerifyLogin')
-data.setCell(1, 3, 2316);
+data.setCell(1, 1, 'AddCart1')
+data.setCell(1, 2, 'TestCases.VerifyAddToCart')
+data.setCell(1, 3, 3601);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'ValidateTabs')
+data.setCell(2, 2, 'TestCases.VerifyTabs')
+data.setCell(2, 3, 2491);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'validlogin')
+data.setCell(3, 2, 'TestCases.VerifyLogin')
+data.setCell(3, 3, 1316);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 19 seconds</span>
+              <span class="suite-total-time">Total running time: 21 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -253,27 +303,41 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Register</span>
-                <span class="method-start">6738 ms</span>
+                <span class="method-start">4723 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">quit</span>
-                <span class="method-start">23719 ms</span>
-              </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">TestCases.VerifyLogin</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">launchbrowser</span>
-                <span class="method-start">24096 ms</span>
+                <span class="method-start">19151 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validlogin</span>
-                <span class="method-start">33470 ms</span>
+                <span class="method-start">34165 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">quit</span>
-                <span class="method-start">35786 ms</span>
-              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.VerifyTabs</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchbrowser</span>
+                <span class="method-start">35482 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ValidateTabs</span>
+                <span class="method-start">38543 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.VerifyAddToCart</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchbrowser</span>
+                <span class="method-start">41039 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AddCart1</span>
+                <span class="method-start">44450 ms</span>
+              </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

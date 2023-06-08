@@ -29,7 +29,7 @@ public class RegisterPageObjectModel {
 	
 	private By clickContinue = By.xpath("//input[@class='btn btn-primary']");
 	
-	private By ValidateText =By.xpath("//p[contains(text(),'Congratulations! Your new account has been successfully created!')]");
+	private By validtext=By.xpath("//*[@id=\"content\"]/p[1]");
 	
 	private By Continue=By.xpath("//a[@class='btn btn-primary']");
 	
@@ -92,8 +92,8 @@ public class RegisterPageObjectModel {
 		return driver.findElement(clickContinue);
 	}
 	
-	public WebElement validateSucessText() {
-		return driver.findElement(ValidateText);
+    public WebElement validateSucessText() {
+	return driver.findElement(validtext);
 	}
 	
 	public WebElement Continue() {
